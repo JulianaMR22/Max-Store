@@ -1,0 +1,253 @@
+body {
+  background-color: rgb(26, 24, 24);
+  text-transform: capitalize;
+  margin: 0%;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.main_aside {
+  border: none;
+  background-color: rgb(49, 49, 49);
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 19%;
+}
+.aside_logo {
+  width: 100%;
+  margin-top: 17px;
+}
+.aside_home {
+  color: white;
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-top: 30px;
+  text-align: left;
+  background-color: fuchsia;
+}
+.aside_home:hover {
+  color: white;
+  background-color: fuchsia;
+}
+
+.aside_bills {
+  color: white;
+  background: transparent;
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 17px;
+  border-radius: 10px;
+  text-align: left;
+}
+.aside_bills:hover {
+  color: white;
+  background-color: fuchsia;
+}
+.container_box {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20%;
+  padding-right: 17%;
+}
+p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 33px;
+}
+.price {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.p_aside {
+  background-color: rgb(49, 49, 49);
+  font-size: 16px;
+  color: grey;
+  margin-left: 5px;
+}
+.title1 {
+  color: rgb(241, 180, 65);
+  font-family: "Pacifico", cursive;
+  font-size: 29px;
+  margin: 0;
+}
+.title2 {
+  color: pink;
+  font-family: "Pacifico", cursive;
+  font-size: 29px;
+  margin: 0;
+}
+.title3 {
+  color: violet;
+  font-family: "Pacifico", cursive;
+  font-size: 29px;
+  margin: 0;
+}
+.one {
+  background-color: rgb(49, 49, 49);
+  height: 150px;
+  margin-top: 30px;
+  border-radius: 15px;
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 4px solid rgb(241, 180, 65);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.two {
+  background-color: rgb(49, 49, 49);
+  height: 150px;
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 15px;
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 4px solid pink;
+}
+.three {
+  background-color: rgb(49, 49, 49);
+  height: 150px;
+  margin: 10px;
+  margin-top: 30px;
+  border-radius: 15px;
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-top: 4px solid violet;
+}
+.aside_list li {
+  list-style: none;
+  margin-bottom: 13px;
+}
+.aside_list {
+  padding: 0;
+}
+.second_aside {
+  display: flex;
+  margin-left: 300px;
+  border: none;
+  background-color: rgb(49, 49, 49);
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 16%;
+  right: 0;
+  top: 0;
+}
+.aside_cop {
+  background-color: rgb(49, 49, 49);
+  border: none;
+  color: white;
+  font-size: 17px;
+  margin-top: 0vh;
+  display: flex;
+  align-items: center;
+}
+.second_title {
+  color: white;
+  font-size: 17px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.aside_market li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+ul.aside_market {
+  margin: -58px;
+  padding-top: 76px;
+}
+.section_threetitle {
+  color: white;
+}
+.table_container {
+  background-color: rgb(26, 24, 24);
+  padding-left: 20%;
+  padding-right: 17%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: left;
+}
+.table {
+  background-color: rgb(49, 49, 49);
+  border-radius: 15px;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+caption {
+  color: white;
+  text-align: left;
+  font-family: "Roboto Slab", serif;
+  font-size: 19px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+th,
+td {
+  width: 600px;
+  height: 300%;
+  padding: 13px;
+  border-bottom: 2px solid grey;
+  text-align: left;
+}
+thead {
+  color: grey;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+tbody {
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+.icon_container {
+  background-color: purple;
+  border-radius: 10px;
+  width: 50px;
+  padding-top: 5px;
+}
+.icon_dollar {
+  width: 50px;
+  background-color: fuchsia;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+.icons_container {
+  color: #c3c3c3;
+  padding-left: 20%;
+  padding-right: 17%;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 28px;
+}
+/* este es el selector ede los iconos */
+.now {
+  background-color: rgba(128, 128, 128, 0.384);
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0 5px; /* estp es para el espacio de los iconos */
+}
